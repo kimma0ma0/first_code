@@ -1,6 +1,6 @@
-섭씨=('0\n10\n20\n30\n40\n50\n')
-print('섭씨')
-print(섭씨)
 
-화씨= (.8) +2
-print('화씨')
+print("섭씨\t화씨")
+
+for celsius in range(0, 51, 10):
+    fahrenheit = (celsius * 9/5) + 32
+    print(f"{celsius}\t{fahrenheit}")
